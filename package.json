@@ -1,6 +1,6 @@
 {
     "name": "@garrettbland/lazy-load-images",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "11ty plugin that adds lazy loading attribute to images",
     "author": {
         "name": "Garrett Bland",
