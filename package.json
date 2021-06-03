@@ -1,0 +1,42 @@
+{
+    "name": "lazy-load-images",
+    "version": "0.0.1",
+    "description": "11ty plugin that adds lazy loading attribute to images",
+    "author": {
+        "name": "Garrett Bland",
+        "email": "gmorganbland@gmail.com",
+        "url": "https://twitter.com/gbland777"
+    },
+    "main": "index.js",
+    "scripts": {
+        "dev": "eleventy --config example/.eleventy.js --input example/ --serve --output dist/",
+        "build": "babel src --out-dir ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/garrettbland/lazy-load-images.git"
+    },
+    "keywords": [
+        "11ty",
+        "eleventy",
+        "plugin",
+        "image",
+        "lazy",
+        "loading"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/garrettbland/lazy-load-images/issues"
+    },
+    "homepage": "https://github.com/garrettbland/lazy-load-images#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.12.1",
+        "@babel/cli": "^7.14.3",
+        "@babel/core": "^7.14.3",
+        "@babel/preset-env": "^7.14.4",
+        "prettier": "^2.3.0"
+    },
+    "dependencies": {
+        "jsdom": "^16.6.0"
+    }
+}
