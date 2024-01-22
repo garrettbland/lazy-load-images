@@ -7,7 +7,7 @@
 Install the package
 
 ```bash
-npm install -D @garettbland/lazy-load-images
+npm install -D @garrettbland/lazy-load-images
 ```
 
 Then add the plugin to your `.eleventy.js` file
@@ -15,7 +15,7 @@ Then add the plugin to your `.eleventy.js` file
 ```javascript
 // .eleventy.js
 module.exports = (eleventyConfig) => {
-    eleventyConfig.addPlugin(require('@garettbland/lazy-load-images'))
+    eleventyConfig.addPlugin(require('@garrettbland/lazy-load-images'))
 }
 ```
 
