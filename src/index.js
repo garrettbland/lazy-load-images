@@ -16,7 +16,7 @@ module.exports = (eleventyConfig, options = {}) => {
                     image.setAttribute('loading', 'lazy')
                 })
 
-                return document.documentElement.outerHTML
+                return dom.serialize()
             } else {
                 return content
             }
